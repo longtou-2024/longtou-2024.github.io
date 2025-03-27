@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    table {
+        margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>dur_tts4 Model Demo</h2>
+  <h3>1. Zero shot TTS (Ko, En, Ko & En)</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>Speaker</th>
+        <th>Prompt</th>
+        <th>카카오엔터테인먼트는 콘텐츠 비욘드 콘텐츠라는 가치 아래, 마치 새로운 세계를 여행하듯 즐거운 경험을 제공합니다. 독창적인 실험과 도전을 통해 기존의 틀과 경계를 허물고 전에 없던 새로운 콘텐츠를 선보입니다.
+        </th>
+        <th>Kakao Entertainment offers a pleasant experience under the value of "Content Beyond Content," as if traveling in a new world. Through original experiments and challenges, we break down existing frameworks and boundaries and introduce new content like never before.
+        </th>
+        <th>카카오 entertainment 는 content beyond content 라는 가치 아래, 마치 새로운 세계를 여행하듯 즐거운 experience 를 제공합니다. 독창적인 실험과 challenge 를 통해 기존의 틀과 경계를 허물고 전에 없던 새로운 contents 를 선보입니다.
+        </th>
+      </tr>
+      <tr>
+        <td>Azure</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/azure-01.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/azure-01_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/azure-01_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/azure-01_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>유인나</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/YUINNA-01.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/YUINNA-01_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/YUINNA-01_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/YUINNA-01_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>남자_카이스트_오디오북</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/m2_sd1_2.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/m2_sd1_2_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/m2_sd1_2_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/m2_sd1_2_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>롱토우</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/longtou.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/longtou_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/longtou_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/longtou_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>위니</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/winnie1.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/winnie1_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/winnie1_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/winnie1_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>케일</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/kale.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/kale_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/kale_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/kale_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>짜증(skt)</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/F2001_000001.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/F2001_000001_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/F2001_000001_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/F2001_000001_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>결의,단호(anni)</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/anni_1.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/anni_1_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/anni_1_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/anni_1_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>rachel</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/rachel.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/rachel_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/rachel_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/rachel_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>sherlock</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/sherlock.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/sherlock_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/sherlock_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/sherlock_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>zuck</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/zuck.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/zuck_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/zuck_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/zuck_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>optimus_prime</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/optimusprime.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/optimusprime_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/optimusprime_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/optimusprime_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>robert</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/robert.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/robert_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/robert_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/robert_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>trump</td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="speech_prompt/trump_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/trump_0_sample_0_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/trump_0_sample_2_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wav.scp/trump_0_sample_1_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
