@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    table {
+        margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>CosyVoice2 Demo</h2>
+  <h3>1. Few shot TTS (소량의 데이터로 추가학습)</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>
+          박의주 성우
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_pr_azure/azure_annoying.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          싫어! 나 밥 안먹을꺼야 놀게 해줘~
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_pr_azure/azure_fairy.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          고래는 멋있어요. 거대한 몸으로 바다를 거니는 모습, 상상만해도 설레죠.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_pr_azure/azure_history.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          임금이 태평한 태평성대를 보았느냐? 내 마음이 지옥이기에 그나마 세상이 평온한 것이다.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_pr_azure/azure_joy.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          많이 기다리셨죠? 드디어 최종 워크샵 장소가 결정되었습니다!
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_pr_azure/azure_ridicule.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          너가 지금 나를 잡아먹으려고 하는구나?
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_pr_azure/azure_sad.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          아이고 또 떨어졌니? 걱정이 늘었구나.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_pr_azure/azure_sport.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          경기가 종료됐습니다! 오늘의 승리는 티원이 거두었고, 최종 스코어는 이대영 입니다. 오늘의 엠브이피는 페이커 선수으로 선정됐습니다.
+        </td>
+      </tr>
+    </table>
+  </div>
+  <h3>2. Voice Conversion (음색 변환)</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>
+          Source Speech
+        </th>
+        <th>
+          Target Speech
+        </th>
+        <th>
+          Generated Speech
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/ref_prosody_cosy/annoying_F2001_000047.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          싫어 나 여기서 안살꺼야 할머니하고 살꺼야.
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/ref_audio_pej/0033.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_vc/0033_annoying.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/ref_prosody_cosy/fairy_3.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          추운 겨울날 배고픈 호랑이가 작은 다람쥐를 잡았어요.
+        </td>
+        <td>
+          ""
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_vc/0033_fairy.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/ref_prosody_cosy/history_F2001_000104.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          이실직고 하라, 그리하면 짐이 그자리는 보존시켜 주겠다. 그렇지 않으면 일족이 멸문할 것이다.
+        </td>
+        <td>
+          ""
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_vc/0033_history.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/ref_prosody_cosy/joy_F2001_000018.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          할아버지 어머니, 오늘 제가 사냥해서 토끼를 잡았어요.
+        </td>
+        <td>
+          ""
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_vc/0033_joy.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/ref_prosody_cosy/ridicule_F2001_000103.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          첫날부터 피맛을 단단히 보는구나.
+        </td>
+        <td>
+          ""
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_vc/0033_ridicule.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/ref_prosody_cosy/sad_F2001_000010.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          그래도 병원가서 있는게 나요. 불안해서 안되겠어요.
+        </td>
+        <td>
+          ""
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_vc/0033_sad.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/ref_prosody_cosy/sport_S-XY-D-010-0142.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          공격기회! 가운데에서 왼쪽으로 연결합니다. 연결됩니다! 올려준 볼 막아냅니다!
+        </td>
+        <td>
+          ""
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_vc/0033_sport.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <h3>3. Prosody Transfer (스타일 변환)</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>
+          Style
+        </th>
+        <th>
+          Prompt
+        </th>
+        <th>
+          Generated
+        </th>
+      </tr>
+      <tr>
+        <td>
+          사극톤
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/ref_prosody_cosy/history_F2001_000104.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="cosyvoice/outdir_pr_transfer/0033_history.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          임금이 태평한 태평성대를 보았느냐? 내 마음이 지옥이기에 그나마 세상이 평온한 것이다.
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
