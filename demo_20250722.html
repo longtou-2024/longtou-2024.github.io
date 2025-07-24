@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    table {
+        margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>음성 스타일 변환 예시</h2>
+  <h3>1. 웃음소리</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>
+          laugh1
+        </th>
+        <th>
+          laugh2
+        </th>
+        <th>
+          laugh3
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/laugh_test/kim_laugh_3.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          하하하, 나도 내 심장이 어떻게 뛰었는지 모르겠어.
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/laugh_test/kim_laugh_2.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          크크크, 시도해봐. 내가 더 잘 웃길지도 몰라.
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/laugh_test/kim_laugh_1.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          푸하하하, 진짜 그런 상황이면 나라도 웃었을걸?
+        </td>
+      </tr>
+    </table>
+  </div>
+  <h3>2. 천천히 강조하며 읽기</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>
+          천천히 강조
+        </th>
+        <th>
+          일반 속도
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/slow_test/azure_slow_1.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          이 문서는 기밀 정보이므로 외부 유출 금지입니다.
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/slow_test/azure_slow_base_1.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          이 문서는 기밀 정보이므로 외부 유출 금지입니다.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/slow_test/kim_slow_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          중요한 안전 수칙을 꼭 기억하세요.
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/slow_test/kim_slow_base_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          중요한 안전 수칙을 꼭 기억하세요.
+        </td>
+      </tr>
+    </table>
+  </div>
+  <h3>3. 빠르고 급하게 읽기</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>
+          빠르고 급하게
+        </th>
+        <th>
+          일반 속도
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/fast_hurry_test/azure_hurry_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          빨리, 지금 당장 움직여야 해!
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/fast_hurry_test/azure_fast_base_0.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          빨리, 지금 당장 움직여야 해!
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/fast_hurry_test/kim_fast_1.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          바로 이쪽으로 와, 설명할 시간이 없어!
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/fast_hurry_test/kim_fast_base_1.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          바로 이쪽으로 와, 설명할 시간이 없어!
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/fast_hurry_test/kim_hurry_2.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          멈춰! 지금 당장 멈춰야 해!
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/fast_hurry_test/kim_fast_base_2.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          멈춰! 지금 당장 멈춰야 해!
+        </td>
+      </tr>
+    </table>
+  </div>
+  <h3>4. 발화 스타일</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>
+          합성음
+        </th>
+        <th>
+          스타일과 발화문장
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/chat_test/azure_chat teen.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          [대화체]: 왜 나는 매번 이렇게 망설이는 걸까… 하하, 이럴 때일수록 담대해야 하는데, 마음은 자꾸만 작아지기만 해.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/chat_test/kim_chat adult.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          [대화체]: 왜 나는 매번 이렇게 망설이는 걸까… 하하, 이럴 때일수록 담대해야 하는데, 마음은 자꾸만 작아지기만 해.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/chat_test/azure_낭독체.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          [낭독체]: 어느 날, 작은 골목길에서 한 남자가 말했어. "여기가 바로 우리 시작점이야." 그리고 모두가 그 말에 힘을 얻었단다.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/chat_test/kim_낭독체.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          [낭독체]: 어느 날, 작은 골목길에서 한 남자가 말했어. "여기가 바로 우리 시작점이야." 그리고 모두가 그 말에 힘을 얻었단다.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/chat_test/azure_중계체.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          [중계체]: 마침내 오리아나 오인궁 적중! 글로벌 골드는 역전되었습니다!
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/chat_test/kim_중계체.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          [중계체]: 마침내 오리아나 오인궁 적중! 글로벌 골드는 역전되었습니다!
+        </td>
+      </tr>
+    </table>
+  </div>
+  <h3>5. 톤 변화</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>
+          다이나믹톤
+        </th>
+        <th>
+          모노톤
+        </th>
+        <th>
+          높은톤
+        </th>
+        <th>
+          낮은톤
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/tone_test/kim_dynamic.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          이 순간이 바로 우리가 오랫동안 기다려온 기회야. 절대 놓치지 말고 힘을 다해 잡아야 해.
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/tone_test/kim_mono.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          이 순간이 바로 우리가 오랫동안 기다려온 기회야. 절대 놓치지 말고 힘을 다해 잡아야 해.
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/tone_test/kim_high.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          조용히 해봐, 분명 무언가 이상한 소리가 들렸어… 긴장하지 말고 귀 기울여야 해.
+        </td>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/tone_test/kim_low.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+          조용히 해봐, 분명 무언가 이상한 소리가 들렸어… 긴장하지 말고 귀 기울여야 해.
+        </td>
+      </tr>
+    </table>
+  </div>
+  <h3>6. 감정 발화</h3>
+  <div style="text-align: center;">
+    <table style="width:80%">
+      <tr>
+        <th>
+          합성음
+        </th>
+        <th>
+          감정
+        </th>
+        <th>
+          발화문
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_happy.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          happy
+        </td>
+        <td>
+          오늘은 날씨도 좋고, 마음까지 맑아서 정말 기분이 좋아!
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_happy.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          happy
+        </td>
+        <td>
+          오늘은 날씨도 좋고, 마음까지 맑아서 정말 기분이 좋아!
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_angry.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          angry
+        </td>
+        <td>
+          도대체 무슨 생각으로 그런 짓을 한 거야? 정말 참을 수 없어!
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_angry.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          angry
+        </td>
+        <td>
+          도대체 무슨 생각으로 그런 짓을 한 거야? 정말 참을 수 없어!
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_sad.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          sad
+        </td>
+        <td>
+          그 말을 듣고 나니, 가슴 한켠이 너무 아파서 견딜 수가 없어.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_sad.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          sad
+        </td>
+        <td>
+          그 말을 듣고 나니, 가슴 한켠이 너무 아파서 견딜 수가 없어.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_embarrassed.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          embarrassed
+        </td>
+        <td>
+          아, 내가 왜 그런 말을 했지?... 너무 얼굴이 뜨거워져서 이 순간을 빨리 지나가고 싶어.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_embarrassed.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          embarrassed
+        </td>
+        <td>
+          아, 내가 왜 그런 말을 했지?... 너무 얼굴이 뜨거워져서 이 순간을 빨리 지나가고 싶어.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_shy.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          shy
+        </td>
+        <td>
+          그… 그 말, 고마워. 나, 조금 쑥스러워서… 어색하네.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_shy.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          shy
+        </td>
+        <td>
+          그… 그 말, 고마워. 나, 조금 쑥스러워서… 어색하네.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_hesitate.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          hesitate
+        </td>
+        <td>
+          음… 해야 할지 말아야 할지 잘 모르겠어. 조금만 더 생각해볼게.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_hesitate.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          hesitate
+        </td>
+        <td>
+          음… 해야 할지 말아야 할지 잘 모르겠어. 조금만 더 생각해볼게.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_tease.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          tease
+        </td>
+        <td>
+          하하, 그런 표정 지으니까 더 웃기네! 좀 웃어봐, 너무 딱딱해.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_tease.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          tease
+        </td>
+        <td>
+          하하, 그런 표정 지으니까 더 웃기네! 좀 웃어봐, 너무 딱딱해.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_unpleasure.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          unpleasure
+        </td>
+        <td>
+          솔직히 말하면, 그 상황이 너무 불편하고 마음에 들지 않았어
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_unpleasure.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          unpleasure
+        </td>
+        <td>
+          솔직히 말하면, 그 상황이 너무 불편하고 마음에 들지 않았어
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_dry.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          dry
+        </td>
+        <td>
+          음, 그렇게 하는 게 맞겠지. 그게 다야.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_dry.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          dry
+        </td>
+        <td>
+          음, 그렇게 하는 게 맞겠지. 그게 다야.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_anxious.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          anxious
+        </td>
+        <td>
+          시간이 점점 다가올수록 가슴이 쿵쾅거리고, 떨리는 걸 숨길 수가 없어
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_anxious.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          anxious
+        </td>
+        <td>
+          시간이 점점 다가올수록 가슴이 쿵쾅거리고, 떨리는 걸 숨길 수가 없어
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_fear.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          fear
+        </td>
+        <td>
+          어둠 속에서 누군가 다가오는 소리가 들리자, 순간 몸이 얼어붙었어.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_fear.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          fear
+        </td>
+        <td>
+          어둠 속에서 누군가 다가오는 소리가 들리자, 순간 몸이 얼어붙었어.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/azure_surprise.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          surprise
+        </td>
+        <td>
+          뭐라고? 그럴 줄은 전혀 예상 못했어, 정말 깜짝 놀랐어!
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="audio-player">
+            <audio controls>
+              <source src="wavs_20250722/emotion_other_test/kim_surprise.wav" type="audio/wav">
+              브라우저가 오디오 요소를 지원하지 않습니다.
+            </audio>
+          </div>
+        </td>
+        <td>
+          surprise
+        </td>
+        <td>
+          뭐라고? 그럴 줄은 전혀 예상 못했어, 정말 깜짝 놀랐어!
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
